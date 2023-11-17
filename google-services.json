@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699188021790",
+    "project_id": "orgs-cesta",
+    "storage_bucket": "orgs-cesta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699188021790:android:1033338b36585192117c0f",
+        "android_client_info": {
+          "package_name": "orgs.Cesta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlbpyMibKWRfm6ihBvo7E3V-oLu1b1SkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
