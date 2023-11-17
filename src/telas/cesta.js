@@ -9,8 +9,11 @@ export default function Cesta(){
     return <>
     <Image source={topo} style={estilos.topo} />
     <Text style={estilos.titulo} >Detalhes da Cesta</Text>
+    <Text style={estilos.subtitulo} >Cesta de verduras</Text>
     </> 
 }
+
+
 
 const estilos = StyleSheet.create({
     topo:{
@@ -27,5 +30,14 @@ const estilos = StyleSheet.create({
         lineHeight: 26,
         fontWeight: "bold",
         padding: 16,
+    },
+
+    subtitulo:{
+        width:"100%",
+        color:"black",
+        fontSize: 36,
+        lineHeight: 36,
+        fontWeight: "bold",
+        padding: 20,
     }
 })
