@@ -12,8 +12,9 @@ export default function Detalhes({ nome, logoFazenda, nomeFazenda, descricao, pr
     </View>
     <Texto style={estilos.descricao}>{ descricao }</Texto>
     <Texto style={estilos.preco}>{ preco }</Texto>
-    <TouchableOpacity style={estilos.botao}>
-      <Texto style={estilos.textoBotao}>{botao}</Texto>
+
+    <TouchableOpacity style={estilos.botao} onPress={() => {}}>
+      <Texto style={estilos.textoBotao}>{ botao }</Texto>
     </TouchableOpacity>
   </>
 }
@@ -50,18 +51,17 @@ const estilos = StyleSheet.create({
     lineHeight: 42,
     marginTop: 8,
   },
-
-  botao:{
-    marginTop: 6,
+  botao: {
+    marginTop: 16,
     backgroundColor: "#2A9F85",
+    paddingVertical: 16,
     borderRadius: 6,
-    height: 50,
-    justifyContent:'center'
   },
-  textoBotao:{
-    color: "#fff",
+  textoBotao: {
+    textAlign: "center",
+    color: "#ffffff",
     fontSize: 16,
-    textAlign: 'center',
-    fontWeight: 'bold',
+    lineHeight: 26,
+    fontWeight: "bold",
   },
 })
